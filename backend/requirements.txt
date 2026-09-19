@@ -1,0 +1,17 @@
+fastapi>=0.100.0
+uvicorn[standard]>=0.22.0
+pydantic>=2.0.0
+httpx>=0.24.0
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+networkx>=3.0
+python-dotenv>=1.0.0
+
+# Quantum (optional - system will use demo mode if unavailable)
+# qiskit>=1.0.0
+# qiskit-aer>=0.13.0
+# qiskit-optimization>=0.6.0
+
+# SUMO integration (optional - requires SUMO installation)
+# traci is included with SUMO, no separate pip install needed
